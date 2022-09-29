@@ -3,8 +3,8 @@ from random import randrange
 
 def createSequence(num):
     result = []
-    for i in range(num + 1):
-        if i != 0: result.append(i)
+    for i in range(1, num + 1):
+        result.append(i)
     return result
 
 def shuffleList(list):
