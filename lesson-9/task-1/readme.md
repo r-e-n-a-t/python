@@ -8,23 +8,28 @@
 
 ## Установка библиотеки на win10
 
-### 1. Создаем виртуальное окружение
+### 1. Создаем терминал Command Prompt в VSCode
+
+### 2. Создаем виртуальное окружение
 
 ```powerShell
 python -m venv .env
 ```
-### 2. Переходим в папку Scripts.
+### 3. Переходим в папку Scripts.
 ```powerShell
 cd .env/Scripts
 ```
-### 3. Активируем окружение
+### 4. Активируем окружение
 ```powerShell
 activate
 ```
-### 4. Установка библиотеки
+### 5. Установка библиотеки
 ```powerShell
 pip install python-telegram-bot==20.0a0
 ```
-
+### 6. Запуск бота
+```powerShell
+python.exe "путь к файлу"/bot.py
+```
 
 __Author:__ r-e-n-a-t
